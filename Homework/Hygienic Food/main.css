@@ -1,0 +1,137 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.food {
+    width: 1080px;
+    height: 1080px;
+    background-image: url(./images/bgImage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px auto;
+    position: relative;
+}
+
+.food .textPosition {
+    width: 558px;
+    height: 764px;
+    margin: 0 auto;
+    background: url(./images/textbgimage.svg) no-repeat;
+    background-repeat: no-repeat;
+}
+
+.food .textPosition .logo {
+    width: 146px;
+    height: 146px;
+    margin: 24px auto 0;
+}
+
+.food .textPosition .garant {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70.6092px;
+    line-height: 85px;
+    color: #000000;
+    text-align: center;
+}
+
+.food .textPosition .text {
+    position: absolute;
+    width: 693px;
+    height: 171px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 141.609px;
+    line-height: 171px;
+    color: #000000;
+    left: 170px;
+    top: 200px
+}
+
+.food .textPosition .foodText {
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90.6092px;
+    line-height: 110px;
+    color: #000000;
+}
+
+.food .textPosition .foodImage {
+    position: absolute;
+    width: 669px;
+    height: 466px;
+    left: 110px;
+    top: 360px;
+    filter: drop-shadow(0px 12px 30px #7A3D2E);
+    transform: rotate(-15deg);
+}
+
+.food .textPosition .discountBox {
+    position: absolute;
+    width: 311px;
+    height: 311px;
+    left: 728px;
+    top: 440px;
+    background: #FFF9F2;
+    border-radius: 50%;
+}
+
+.food .textPosition .discountBox .jadval {
+    margin: 100px 85px;
+}
+.food .textPosition .discountBox .jadval .upto {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 18px;
+    color: #D37528;
+    padding-bottom: 10px;
+}
+.food .textPosition .discountBox .jadval .uttiz {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 90px;
+    line-height: 18px;
+    color: #D37528;
+}
+.food .textPosition .discountBox .jadval .foiz ,
+.food .textPosition .discountBox .jadval .off {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34.5784px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #D37528;
+}
+.foodBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 60px;
+    position: absolute;
+    width: 428px;
+    height: 98px;
+    left: 325px;
+    top: 907px;
+    background: #7A3D2E;
+    border-radius: 100px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
