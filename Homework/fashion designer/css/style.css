@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+}
+
+.header {
+  width: 1080px;
+  height: 1080px;
+  background-image: url(../img/flyer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  padding: 60px 80px 80px 50px;
+}
+
+.header_in {
+  width: 100%;
+  height: 100%;
+}
+
+.header_img:nth-child(3) {
+  margin: 30px 0 90px;
+}
+
+.header_flex > a {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26.0145px;
+  line-height: 33px;
+  text-align: center;
+  color: #0a2332;
+  padding: 6.50364px 27.6404px;
+  width: 238.28px;
+  height: 79.01px;
+  background: #f2c672;
+  border-radius: 13.0073px;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.header_flex > a:hover {
+  background-color: white;
+  transform: scale(1.1);
+}
+
+.header_flex a img {
+  transition: 0.4s ease;
+}
+
+.header_flex a:hover img {
+  transform: scale(1.1);
+}
+
+.header_flex {
+  margin-top: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

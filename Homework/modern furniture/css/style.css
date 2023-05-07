@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  text-decoration: none;
+}
+
+.header {
+  width: 1080px;
+  height: 1080px;
+  background-image: url(../img/flyer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  padding: 120px 120px 60px 100px;
+}
+
+.header_in {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_in > img {
+  transform: translateX(-250px);
+}
+
+.header_text h1 {
+  width: 264px;
+  height: 114px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 46.7368px;
+  line-height: 57px;
+  color: #fff9f2;
+  margin-bottom: 40px;
+}
+
+.header_text p {
+  width: 423px;
+  height: 76px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff9f2;
+  margin-bottom: 460px;
+}
+
+.header_button {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26.5143px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 280px;
+  height: 58px;
+  background: #d37528;
+  border-radius: 26.5143px;
+  color: #210b01;
+  margin-bottom: 85px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.header_button:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  transform: scale(1.1);
+}
+
+.header_text a div h2 {
+  width: 145px;
+  height: 31px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25.6092px;
+  line-height: 31px;
+  color: #fff9f2;
+}
+
+.header_text a div h3 {
+  width: 263px;
+  height: 31px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25.6092px;
+  line-height: 31px;
+  color: #fff9f2;
+}
+
+.header_text a img {
+  margin-right: 13px;
+}
+
+.header_text a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  transition: 0.4s ease;
+}
+
+.header_text a:hover {
+  transform: scale(1.1);
+}
