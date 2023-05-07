@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather' , sans-serif;
+}
+
+.container {
+    max-width: 1080px;
+    height: 1180px;
+    margin: 100px auto;
+    background: url(./images/bgImage.png) no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.box {
+    z-index: 1;
+    width: 100%;
+    position: absolute;
+    top: 480px;
+}
+
+.firstBox {
+    width: 347px;
+    height: 187px;
+    float: left;
+    background: #FFF9F2;
+    border: 4px solid #D37528;
+    border-radius: 0px 100px 100px 0px;
+    padding: 46px 37px;
+}
+
+.firstBox h1 {
+    width: 273px;
+    font-weight: 400;
+    font-size: 24.0131px;
+    line-height: 30px;
+    color: #210B01;
+}
+
+.secondBox h1  , a {
+    font-weight: 400;
+    font-size: 24.0131px;
+    line-height: 30px;
+    color: #210B01;
+    display: inline-block;
+}
+
+.secondBox {
+    width: 370px;
+    height: 178px;
+    float: right;
+    background: #FFF9F2;
+    border: 4px solid #D37528;
+    border-radius: 100px 0px 0px 100px;
+    padding: 15px 48px 15px 80px!important;
+}
+
+.clr {
+    clear: both;
+}
+
+.textTop {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 58.663px;
+    color: #FFCA6C;
+    text-align: center;
+}
+
+.textBottom {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 50.663px;
+    line-height: 64px;
+    color: #FFCA6C;
+    text-align: center;
+}
+
+.textServices {
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 17px 0px;
+    gap: 8px;
+    position: absolute;
+    width: 374px;
+    height: 284px;
+    left: 353px;
+    top: 773px;
+    border: 4.3366px solid #FFCA6C;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.textServices .services {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    color: #FFCA6C;
+}
+
+.textServices h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFF9F2;
+}
