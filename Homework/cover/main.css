@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: url(./images/bgphoto.png) no-repeat;
+    max-width: 1920px;
+    margin: 250px auto;
+}
+
+.bigBox {
+    padding-left: 200px;
+}
