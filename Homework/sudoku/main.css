@@ -5,3 +5,35 @@
     box-sizing: border-box;
 }
 
+.container {
+    width: 917px;
+    height: 918px;
+    margin: 100px auto;
+    text-align: center;
+    font-size: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 10.6px solid black;
+}
+
+.bigBox {
+    width: 298px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 5px solid blue */
+    background: #000;
+}
+
+.box {
+    width: 99px;
+    height: 99px;
+    align-items: center;
+    border: 0.5px solid black;
+    align-items: center;
+    background-color: white;
+}
+.box:hover {
+    background-color: aquamarine;
+}
